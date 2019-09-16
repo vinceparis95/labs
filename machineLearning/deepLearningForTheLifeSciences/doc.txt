@@ -1,0 +1,40 @@
+﻿Deep Learning For the Life Sciences
+
+Chapter 4. Machine Learning for Molecules
+    0. introduction
+	a. The dream of molecular machine learning is molecule design.
+	b. We need to be able to transform molecules into vectors.
+ 	c. Vectors of numbers can be passed to mL algorithms.
+	d. converting molecules into vectors is called molecular featurization.
+	e. different ways of featurizing molecules include:
+		0. chemical descriptors;
+		1. 2D graph representations;
+		2. 3D electrostatic grid representations;
+		3. orbital basis function representations;  
+    1. What is a Molecule?
+	a. A molecule, or "m", is a group of atoms
+	b. the atoms are joined by physical forces.
+	c. atoms are connected by *chemical bonds*.
+	d. chemical bonds hold atoms together and restrict their interplay.
+	e. m's are the smallest unit of chem compound which parcipate in chem reactions.
+	f. molecules can be a few or so so many atoms.
+	g. We use mass spectroscopy to "see" molecules:
+		0. hose down a sample with electrons;
+		1. molecule shatters into *ionized* fragments;
+		2. The fragments are propelled by electric field;
+		3. The propulsion separates them by their mass to charge ratio;
+		4. We detect the charged fragments, which is called the spectrum; 
+	h. molecules are *quantum*:
+		0. Atoms in molecules are in rapid motion relative to each other;
+		1. The chemical bonds stretch back and forth, oscillating;
+		2. The atoms often break off from or join with molecules;
+		3. The atoms and bonds are fuzzy and exhibit quantum effects;
+		4. quantum effects include superposition, and entanglement.
+    2. What are Molecular bonds?
+	a. Bonds are the glue of shared electrons that hold the atoms together.
+	b. Covelant bonds are cool:
+		0. Covalant bonds involve sharing electrons between 2 atoms.
+		1. Covalent bonds are the strongest type of chemical bond.
+		2. A molecule itself is a set of atoms joined by covalant bonds.
+    3. 
+
