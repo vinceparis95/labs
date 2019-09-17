@@ -1,0 +1,31 @@
+TensorFlow for Deep Learning
+
+Chapter 2. Introduction to TensorFlow Primitives
+    0. introduction
+	a. tensorflow is built on tensorial mathematics
+	b. tensorflow code describes computations in a computational graph
+    1. Scalars, Vectors, and Matrices
+	a. a rank-0 tensor is a scalar:
+		0. a single constant value.
+		1. a scalar is drawn from a real number (+ or - decimal numbers).
+		2. real numbers will be denoted R.
+	b. a rank-1 tensor is a vector, or list of real numbers
+		0. a vector is a column or a row
+		1. a vector has a shape of (n, 1) or (1, n).
+		2. examples of vectors might be:
+		    a. a superheros strength, speed, and power (space R3).
+		    b. a molecules subfragments in terms of binary vectors.
+	c. a rank-2 tensor is a matrix
+		0. matrices are like columns and rows, of shape (n, n).
+		1. traditionally, matrices are used to transform vectors.
+		2.  a function f is called linear if f(x + y) = f(x) + f(y) and f(cx) = cf(x) where c is a scalar. 
+	d. a rank-3 tensor is like a prism, or layers of isomorphic matrices
+		0. a rank-3 tensor has 3 required indices, or shape (n, n, n). 
+    2. Basic Computations in Tensorflow
+	a. Initializing Constant Tensors
+		0. tensor objects
+		    a. a = tf.zeros(2) returns a ref to a (2,), 0-valued scalar.
+		    b. a.eval() will return the actual numpy.ndarray object.
+		    c. tf.zeros(2,3) returns a ref for a ((2,3)) tensor.
+
+
