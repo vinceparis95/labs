@@ -24,8 +24,37 @@ Chapter 2. Introduction to TensorFlow Primitives
     2. Basic Computations in Tensorflow
 	a. Initializing Constant Tensors
 		0. tensor objects
-		    a. a = tf.zeros(2) returns a ref to a (2,), 0-valued scalar.
-		    b. a.eval() will return the actual numpy.ndarray object.
-		    c. tf.zeros(2,3) returns a ref for a ((2,3)) tensor.
+		    c. if a = tf.zeros(2,3), print(a) returns a ((2,3)) tensor.
+		    b. print(a.numpy()) will return the numpy.ndarray object.     
+		    d. tf.matmul((n, n)) can multiply 2 tensors (maybe a and b?:).
+		    e. tf.to_float(x) will change a tensors datatype (aka dtype).
+		1. tensor shape manipulations
+		    a. is a = tf.zeros(9), it will be eval'd as a 1D vector.
+		    b. if a = tf.reshape(3, 3) it is reshaped as a 3x3 2d matrix. 
+		    c. and a.get_shape() will let us know this!
+		2. broadcasting is adding together matrices and vectors of different sizes. 
+    3. Imperative and Declarative Programming
+	a. Tensorflow Sessions
+	b. Tensorflow Variables
+		0. constants are immutable; they cannot be changed.
+		1. addiing 2 constants only returns a third constant.
+		2. a = tf.Variable(tf.ones((3, 3)) wraps a tensor in a variable.
+		3. if we say a.assign(tf.zeros(3, 3)), it fills the 3x3 with 0's.
+		4. if we try to reassign with a.assign(2,2)) we cannot.
 
+Chapter 2 code:
+
+import tensorflow as tf
+
+a = tf.zeros((3, 3))
+print(a)
+print(a.numpy())
+
+b = tf.ones((3, 6))
+print(tf.matmul(a, b))
+
+
+Chapter 3: Linear and Logistic Regression with TensorFlow
+
+	
 
