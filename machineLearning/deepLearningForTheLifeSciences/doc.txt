@@ -36,5 +36,36 @@ Chapter 4. Machine Learning for Molecules
 		0. Covalant bonds involve sharing electrons between 2 atoms.
 		1. Covalent bonds are the strongest type of chemical bond.
 		2. A molecule itself is a set of atoms joined by covalant bonds.
-    3. 
-
+	c. noncovalant bonds are also cool:
+		0. Covalant bonds do not involve the direct sharing of electrons.
+		1. They involve weaker electromagnetic interactions.
+		2. Noncovalant bonds do not define a molecule, like covalant bonds.
+		3. They have a huge effect on the shapes molecules take. 
+		4. some types of covalant bonds include:
+		    a. hydrogen bonds;
+		    b. salt bridges
+		    c. other things important in drug design. 
+	d. have you heard of molecular graphs?
+		0. a graph is a mathey data structure made of nodes and edges.
+		1. graphs can be used to describe any kind of "network".
+		2. molecules can be viewed as graphs.
+	e. molecular conformation involved how a molecule is positioned in 3D.
+		0. covalently bonded atoms will tend to have fixed distances. 
+		1. 
+		2. as molecules grow, the number of conformations grows exponentialy
+	f. molecules can have *chirality*
+		0. Chirality means that molecules can take mirror forms.
+		1. Chemical reactions produces chiral forms. 
+		2. Both chiral states of a molecule will have identical graphs.
+		3. Different chiral states will bind to different proteins.
+    3. Featurizing a Molecule
+	a. To do mL with molecules, we transform them into feature vectors.
+	b. Smiles strings and rdKit:
+		0. Smiles = "simplified molecular-input line entry system.
+		1. Smiles strings describes
+		    b. water = 0;
+		    a. vitamin b = :OCCc1c(C)[n+](cs1)Cc2cnc(C)nc2N; etc.
+		2. Most dL4ls models use converted smiles strings.
+		3. RDKit converts it to other representations
+ 	c. 
+			
