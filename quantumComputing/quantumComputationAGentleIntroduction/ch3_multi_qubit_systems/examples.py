@@ -26,6 +26,7 @@ print(c)
 l = np.ones(3)
 m = np.ones(3)
 n = np.dot(l,m)
-o = np.kron(l,m)
+o = np.kron(l, m)
 print(l*m)
 print(n, o)
+

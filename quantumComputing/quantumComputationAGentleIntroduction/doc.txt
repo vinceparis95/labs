@@ -1,1 +1,20 @@
 Quantum Computing: A Gentle Introduction
+
+Chapter 3: Multi Qubit Systems
+    0. introduction
+	a. State space of quantum systems grows exponentially with each particle.
+	b. We can't describe states of individual qubits, when they're entangled.  
+    1. Quantum State Spaces
+	a. Vector spaces for possible states of classical systems are 2n.
+	b. Vector spaces for possible states of quantum systems are 2^n.
+	c. Direct sums of vector systems play a huge role.
+!	    1. The direct sum, V#W of 2 vector spaces V and W is just combination.
+		a. A#B for A = {|a1,a2|} and B = {|b1,b2|} is {|a1,a2,b1,b2|}
+		b. Every element |x} e V#W can be written as x = |v}#|w}. 
+	d. Tensor Products play a big time role too.
+	    1. If tp = V##W with bases A = {|a1},|a2}} and B = {|b1,b2|}:	
+		a. tp = nm dimensional vector with e's of the form |ai}##|b1}
+!		b. 
+		
+
+    

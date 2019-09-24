@@ -16,6 +16,8 @@ b4.transpose()
 print(np.multiply(b1,b1))
 print(np.multiply(b1,b2))
 
+# these bases will have a product, an identity matric
+
 # 3.11
 # let psi be an n qubit state
 # show that sum of distances between psi and basis vectors
