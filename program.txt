@@ -1,0 +1,25 @@
+copurse one Katas
+- Linear Algebra
+- - Linear Algebra
+- Machine Learning
+- - Deep Learning
+- - Deep Learning for the Life Sciences
+- - - ch3 Machine Learning for Molecules
+- - - - solubility predictor
+- - Tensorflow for Deep Learning
+- - - ch4 Tensorflow Primitives
+- - - - scalars, vectors, and matrices
+- - - - creating and shaping tensors
+- - - - creating variables
+- - - ch4 Linear and Logistic Regression
+- Quantum Computing
+- - Programming Quantum Computers
+- - - ch7 Quantum Fourier Transform
+- - - - quantum fourier transform
+- - Quantum Computing and Quantum Information
+- - Quantum Computing: A Gentle Introduction
+- - - 3.1 Quantum State Spaces
+- - - - 3.1.1 direct sums of vector spaces
+- - - - tensor products of vector spaces
+- - - 4.1 Measurement of Multiple Qubit States
+- - - - 4.1.1 Matrices for operators
