@@ -55,3 +55,4 @@ for i,amp in enumerate(outputstate):
         prob = abs(amp) * abs(amp)
         print('|{}> {} probability = {}%'.format(i, amp, round(prob * 100, 5)))
 qc.draw()        # draw the circuit
+
