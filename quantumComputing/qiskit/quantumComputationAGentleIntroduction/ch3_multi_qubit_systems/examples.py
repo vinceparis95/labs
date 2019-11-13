@@ -17,16 +17,19 @@ import tensorflow as tf
 
 # example 3.1.1
 # create 2 little matrices
-a = np.ones((3, 3))
-b = np.ones((3, 3))
-print(a)
-print(b)
-c = a.dot(b)
-print(c)
-l = np.ones(3)
-m = np.ones(3)
-n = np.dot(l,m)
-o = np.kron(l, m)
-print(l*m)
-print(n, o)
+# a = np.ones((3, 3))
+# b = np.ones((3, 3))
+# print(a)
+# print(b)
+# c = a.dot(b)
+# print(c)
+# l = np.ones(3)
+# m = np.ones(3)
+# n = np.dot(l,m)
+# o = np.kron(l, m)
+# print(l*m)
+# print(n, o)
+
+
+
 
